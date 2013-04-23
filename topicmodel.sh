@@ -1,5 +1,4 @@
 #!/bin/sh
-#!/bin/sh
 #
 # This script runs MALLET on a corpus with different numbers of 
 # topics and also generates detailed diagnostic output for 
