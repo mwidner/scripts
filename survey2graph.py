@@ -82,6 +82,8 @@ def get_label(question, answer, loose = False):
                         label = question
                 except KeyError:
                     label = answer
+                else:
+                    label = question
     return(label)
 
 # Adds edges between names and answers
