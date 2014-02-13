@@ -17,9 +17,9 @@
 ### VARIABLES ###
 mallet=/Applications/mallet/bin/mallet
 n_topics=(10 20 40 80 100)
-project_name=VisualizingLacuna
-inputdir=
-outputdir=
+project_name=SomeName
+inputdir=SomeDir
+outputdir=SomeOtherDir
 extra_stopwords=EXTRA_STOPWORDS	# wherever they live
 
 ### IMPORT ###

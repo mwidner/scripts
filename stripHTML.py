@@ -16,10 +16,7 @@ def stripHTML():
             fout = open(output + '.txt', 'w')
             
             for line in raw.splitlines():
-                if line.strip() == 'Filed Under: Digital Humanist Interview':
-                    break 
                 fout.write(line)
-#                print(line)
             fout.close()
         except IOError:
             print('Cannot open', file)
